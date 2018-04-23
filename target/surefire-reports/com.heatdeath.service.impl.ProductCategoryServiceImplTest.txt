@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.heatdeath.service.impl.ProductCategoryServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.173 s - in com.heatdeath.service.impl.ProductCategoryServiceImplTest

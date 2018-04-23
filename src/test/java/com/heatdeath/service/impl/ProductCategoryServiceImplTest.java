@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Arrays;
@@ -43,10 +44,10 @@ public class ProductCategoryServiceImplTest {
         Assert.assertNotEquals(0, productCategoryList.size());
     }
 
-    @Test
-    public void save() throws Exception {
-        ProductCategory productCategory = new ProductCategory("summer-hot", 1);
-        Assert.assertNotNull(categoryService.save(productCategory));
-    }
+//    @Test
+//    public void save() throws Exception {
+//        ProductCategory productCategory = new ProductCategory("summer-hot", 1);
+//        Assert.assertNotNull(categoryService.save(productCategory));
+//    }
 
 }
